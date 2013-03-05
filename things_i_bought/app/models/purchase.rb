@@ -1,3 +1,6 @@
 class Purchase < ActiveRecord::Base
-  attr_accessible :cost, :name
+	validates :name, :presence => true	
+	validates :cost, :numericality => { :greater_than => 0 }
+    
+    attr_accessible :name, :cost
 end
