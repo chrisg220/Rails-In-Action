@@ -1,4 +1,6 @@
 class Bacon
+# This is Chris's comment
+# That will get overriden
 
   attr_accessor :expired
 
