@@ -1,5 +1,5 @@
 class Bacon
-  # this is my comment
+  # this is cameron's comment
   # that will cause a conflict!
   # hooray
   attr_accessor :expired
